@@ -4,10 +4,10 @@ import Peer from 'simple-peer';
 
 
 const SocketContext = createContext();
-const socket = io('https://fk-phos.onrender.com/');
+const socket = io('https://video-chat-v3ok.onrender.com');
 
 
- //const socket = io('http://localhost:3000');
+// const socket = io('http://localhost:3000');
 
 
  const ContextProvider = ({ children }) => {
